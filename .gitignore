@@ -1,0 +1,36 @@
+# Track only the Prakrutti theme and custom prakrutti-* plugins.
+# Everything else (WP core, other plugins, uploads, config) is ignored.
+/*
+!/.gitignore
+!/wp-content/
+/wp-content/*
+!/wp-content/themes/
+/wp-content/themes/*
+!/wp-content/themes/prakrutti/
+!/wp-content/plugins/
+/wp-content/plugins/*
+!/wp-content/plugins/prakrutti-*/
+
+# Secrets and environment
+wp-config.php
+.env
+.env.*
+
+# Logs, dumps, backups, archives
+*.log
+*.sql
+*.bak
+*.zip
+backups/
+
+# Dependencies and build output
+node_modules/
+vendor/
+dist/
+build/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
