@@ -2,6 +2,7 @@
 # Everything else (WP core, other plugins, uploads, config) is ignored.
 /*
 !/.gitignore
+!/.gitattributes
 !/wp-content/
 /wp-content/*
 !/wp-content/themes/
